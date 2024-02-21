@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-3xl;
+  }
+
+  p {
+    @apply text-base font-normal;
+  }
+
+  section {
+    @apply my-28 relative;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .bg-gradient-colors {
+    @apply from-[#8176AF] to-[#C0B7E8];
+  }
+}
