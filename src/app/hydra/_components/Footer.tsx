@@ -14,30 +14,30 @@ for (let i = 1; i <= 6; i++) {
         height={30}
         width={30}
       />
-    </Link>,
+    </Link>
   );
 }
 
 const navStyles = "flex flex-col mx-auto gap-3";
 
 const footerData = [
-  <Link href="/">
+  <Link href="/" key={0}>
     <Image src="/hydra/logo.svg" alt="" height={200} width={200} />
   </Link>,
-  <nav className={navStyles}>
+  <nav className={navStyles} key={1}>
     <Link href="#about">ABOUT</Link>
     <Link href="#services">SERVICES</Link>
     <Link href="#technologies">TECHNOLOGIES</Link>
     <Link href="#howto">HOW TO</Link>
     <Link href="#contact">JOIN HYDRA</Link>
   </nav>,
-  <nav className={navStyles}>
+  <nav className={navStyles} key={2}>
     <Link href="">FAQ</Link>
     <Link href="">SITEMAP</Link>
     <Link href="">CONDITIONS</Link>
     <Link href="">LICENSES</Link>
   </nav>,
-  <div className="mx-auto">
+  <div className="mx-auto" key={3}>
     <span>SOCIALIZE WITH HYDRA</span>
     <div className="mb-6 mt-4 flex gap-4">{socials}</div>
     <Button text="BUILD YOUR WORLD" />
