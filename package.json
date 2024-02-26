@@ -13,6 +13,7 @@
     "prettier-plugin-tailwindcss": "^0.5.11",
     "react": "^18",
     "react-dom": "^18",
+    "swiper": "^10.0.0",
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {

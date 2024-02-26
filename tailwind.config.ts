@@ -17,9 +17,16 @@ const config: Config = {
       backgroundImage: {
         "tech": "url('/hydra/tech-image.svg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "analytics-top": "url('/analytics/background-top.svg')",
-        "analytics-bottom": "url('/analytics/background-bottom.svg')",
       },
+      fontFamily:{
+        sato: ['var(--font-satoshi)'],
+        play:['var(--font-playfair)']
+      },
+      colors:{
+        'pale-blue':'#BAD7F2',
+        'navy-blue' : '#003559',
+        'midnight-blue': '#061A40',
+      }
     },
   },
   plugins: [],

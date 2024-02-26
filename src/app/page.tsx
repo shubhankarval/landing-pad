@@ -10,6 +10,12 @@ export default function Home() {
       <div>
         <Link href="/analytics">Analytics</Link>
       </div>
+      <div>
+        <Link href="/finance">Finance</Link>
+      </div>
+      <div>
+        <Link href="/fashion">Fashion</Link>
+      </div>
     </main>
   );
 }

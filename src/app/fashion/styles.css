@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  header,
+  section {
+    @apply px-32;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-play text-midnight-blue;
+  }
+
+  h2 {
+    @apply text-6xl;
+  }
+
+  h3 {
+    @apply text-5xl;
+  }
+
+  p {
+    @apply text-lg;
+  }
+}
+
+@layer components {
+  .text-title {
+    @apply text-lg font-bold;
+  }
+
+  .text-price {
+    @apply text-xl font-black;
+  }
+}
