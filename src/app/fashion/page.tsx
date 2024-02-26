@@ -113,7 +113,7 @@ export default function FashionPage() {
           </p>
           <div className="flex gap-5">
             {deals.map((item, index) => (
-              <div className="mb-14 flex h-24 w-24 flex-col items-center justify-center gap-1 bg-navy-blue text-white">
+              <div key={index} className="mb-14 flex h-24 w-24 flex-col items-center justify-center gap-1 bg-navy-blue text-white">
                 <span className="font-play text-2xl">0{item.number}</span>
                 <span>{item.time}</span>
               </div>

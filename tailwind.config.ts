@@ -23,9 +23,13 @@ const config: Config = {
         play:['var(--font-playfair)']
       },
       colors:{
+        // fashion page
         'pale-blue':'#BAD7F2',
         'navy-blue' : '#003559',
         'midnight-blue': '#061A40',
+        // app page
+        'mango' : '#FCA311',
+        'dark-navy' : '#14213D'
       }
     },
   },
