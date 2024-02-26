@@ -10,8 +10,6 @@ import Services from "@finance/Services";
 import Footer from "@finance/Footer";
 import Testimonials from "@finance/Testimonials";
 
-//main class: pointer-events-none h-full w-full
-
 export default function FinancePage() {
   return (
     <main className="selection:bg-[#CBFC01] selection:text-[#151515] relative -z-10 bg-[#151515] py-12 text-white">
@@ -49,7 +47,7 @@ export default function FinancePage() {
         <div className="mt-20 max-w-lg">
           <h3>Welcome! Future Platform</h3>
           <h1 className="font-sato text-7xl font-black leading-snug">
-            The World's Most Modern Card{" "}
+            The World&apos;s Most Modern Card{" "}
             <span className="text-[#CBFC01]">Platform</span>
           </h1>
           <p className="mb-3 mt-6 max-w-md">
@@ -138,7 +136,7 @@ export default function FinancePage() {
       <Testimonials />
       <section className="selection:bg-[#151515] selection:text-[#CBFC01] mx-28 flex flex-col items-center justify-center gap-10 bg-[#cbfc01] px-0 py-16 text-center">
         <h2 className="max-w-4xl text-7xl leading-tight text-[#151515]">
-          Let's grow our business, together.
+          Let&apos;s grow our business, together.
         </h2>
         <button className="bg-[#151515] px-10 py-3 font-sato font-bold text-[#cbfc01]">
           Get Started
